@@ -1,4 +1,8 @@
+# Import required packages
+
 import qiskit as q
+
+# Classical
 
 vector = [2, 5, 7, 10]
 
@@ -7,3 +11,5 @@ vector = [2, 5, 7, 10]
 q_registers, c_registers = 7, 7
 
 circuit = q.QuantumCircuit(q_registers, c_registers)
+
+
